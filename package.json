@@ -1,0 +1,24 @@
+{
+  "name": "minecraft-clone",
+  "version": "1.0.0",
+  "description": "A Minecraft clone built with Three.js and TypeScript",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "start": "npm run build && open dist/index.html"
+  },
+  "dependencies": {
+    "three": "^r128",
+    "simplex-noise": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.0",
+    "ts-loader": "^9.5.0",
+    "copy-webpack-plugin": "^11.0.0"
+  }
+}

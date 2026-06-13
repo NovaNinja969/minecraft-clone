@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app"></div>
+    <div id="hud">
+        <div id="crosshair"></div>
+        <div id="hotbar">
+            <div class="hotbar-slot" data-slot="0">1</div>
+            <div class="hotbar-slot" data-slot="1">2</div>
+            <div class="hotbar-slot" data-slot="2">3</div>
+            <div class="hotbar-slot" data-slot="3">4</div>
+            <div class="hotbar-slot" data-slot="4">5</div>
+            <div class="hotbar-slot" data-slot="5">6</div>
+            <div class="hotbar-slot" data-slot="6">7</div>
+            <div class="hotbar-slot" data-slot="7">8</div>
+            <div class="hotbar-slot" data-slot="8">9</div>
+        </div>
+        <div id="coords">X: 0 Y: 0 Z: 0</div>
+    </div>
+    <div id="menu" class="hidden">
+        <div class="menu-container">
+            <h1>Minecraft Clone</h1>
+            <button id="start-btn">Start Game</button>
+            <button id="settings-btn">Settings</button>
+            <button id="quit-btn">Quit</button>
+        </div>
+    </div>
+    <div id="pause-menu" class="hidden">
+        <div class="menu-container">
+            <h1>PAUSED</h1>
+            <button id="resume-btn">Resume</button>
+            <button id="pause-settings-btn">Settings</button>
+            <button id="pause-quit-btn">Quit to Menu</button>
+        </div>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
