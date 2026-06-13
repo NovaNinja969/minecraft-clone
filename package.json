@@ -1,1 +1,25 @@
-{\n  \"name\": \"minecraft-clone\",\n  \"version\": \"1.0.0\",\n  \"description\": \"A Minecraft clone built with Three.js and TypeScript\",\n  \"main\": \"dist/bundle.js\",\n  \"scripts\": {\n    \"dev\": \"webpack serve --mode development\",\n    \"build\": \"webpack --mode production\",\n    \"start\": \"npm run build && open dist/index.html\"\n  },\n  \"dependencies\": {\n    \"three\": \"^0.160.0\",\n    \"simplex-noise\": \"^3.0.0\"\n  },\n  \"devDependencies\": {\n    \"@types/node\": \"^20.0.0\",\n    \"@types/three\": \"^0.160.0\",\n    \"typescript\": \"^5.0.0\",\n    \"webpack\": \"^5.88.0\",\n    \"webpack-cli\": \"^5.1.0\",\n    \"webpack-dev-server\": \"^4.15.0\",\n    \"ts-loader\": \"^9.5.0\",\n    \"copy-webpack-plugin\": \"^11.0.0\"\n  }\n}\n
+{
+  "name": "minecraft-clone",
+  "version": "1.0.0",
+  "description": "A Minecraft clone built with Three.js and TypeScript",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "start": "npm run build && open dist/index.html"
+  },
+  "dependencies": {
+    "three": "^0.160.0",
+    "simplex-noise": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/three": "^0.160.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.0",
+    "ts-loader": "^9.5.0",
+    "copy-webpack-plugin": "^11.0.0"
+  }
+}
