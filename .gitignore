@@ -1,13 +1,55 @@
+```
+# Dependencies
 node_modules/
+
+# Build outputs
 dist/
-*.log
-.DS_Store
+build/
+.next/
+out/
+
+# Environment variables
 .env
 .env.local
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
-build/
-.cache/
+*.tmp
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# TypeScript/JavaScript
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# Next.js
+.next/cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+```
